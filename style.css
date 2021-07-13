@@ -1,0 +1,116 @@
+body{
+    background-color: #E6E6E6;
+}
+h1{
+    color: blue;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.playerblog{
+    background-color: white;
+    margin-left: 280px;
+    margin-right: 280px;
+    padding: 40px;
+}
+.idea img{
+    width: 56px;
+    height: 56px;
+    padding-right: 20px;
+}
+
+.idea{
+    display: flex;
+    padding-left: 200px;
+}
+
+
+.idea2{
+    padding-left: 500px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+.idea2 li{
+    list-style: none;
+  
+}
+.idea2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+   
+}
+nav{
+    background-color: blue;
+    color: white;
+    align-items:center;
+    display: flex;
+    margin: auto;
+   
+}
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr); 
+    
+}
+.top-player img{
+    height: 56px;
+    width: 56px;
+}
+.top-player p{
+    display: inline;
+    align-items: center;
+}
+span{
+    color: blue;
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr); 
+}
+.top-blog{
+    display: flex;
+   
+}
+.blog2{
+    padding: 10px;
+}
+.top-blog img{
+    height: 100px;
+    width: 150px;
+}
+.top-blog h2,p{
+    display: inline;
+    padding-left: 10px;
+}
+.last{
+    background-color: white;
+    margin-left: 280px;
+    margin-right: 280px;
+    padding: 40px;
+}
+.last1{
+    display: flex;
+   
+    
+}
+.laST2{
+    border: 1px solid white;
+    box-shadow: 2px rgb(243, 163, 15);
+    margin: 5px;
+}
+.last2 img{
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+}
+.last2 p{
+    color: red;
+}
